@@ -27,6 +27,36 @@
 .App-link {
   color: #61dafb;
 }
+.message{
+  padding: 10px;
+  margin: 10px;
+  width: fit-content;
+  left : 10%
+}
+
+.message_user
+{
+  background-color: blue;
+  margin-left: auto; 
+  margin-right: 0;
+  text-align: left !important;
+}
+
+.message_guest{
+  background-color: grey;
+  margin-left: 0; 
+
+}
+
+
+.app_form{
+  padding: 10px;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+
+}
 
 @keyframes App-logo-spin {
   from {
